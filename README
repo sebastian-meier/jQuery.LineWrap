@@ -1,0 +1,16 @@
+jQuery LineWrap
+
+jQuery Plugin for wrapping lines into containers to create nice line backgrounds with padding ect.
+
+You can apply it to any container, container shouldn't contain any tags, text only.
+
+Options for the plugin:
+
+padding: Array(3,10,3,10) //Padding for each line
+margin: Array(0,0,0,0) //Margin for each line
+background: '#ff0000' //Background for the lines
+mode: 'word' //Depending on the width of the container lines get wrapped by word or letter
+align: 'left' //Align inside the container
+extrapadding: 0 //Magic
+
+Each line gets wrapped inside an div with the class "jq-linewrap-line" if you want to apply further styles
