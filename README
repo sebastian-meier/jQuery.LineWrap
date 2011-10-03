@@ -6,8 +6,6 @@ You can apply it to any container, container shouldn't contain any tags, text on
 
 Options for the plugin:
 
-```JavaScript
-
 padding: Array(3,10,3,10) //Padding for each line
 margin: Array(0,0,0,0) //Margin for each line
 background: '#ff0000' //Background for the lines
@@ -15,7 +13,6 @@ mode: 'word' //Depending on the width of the container lines get wrapped by word
 align: 'left' //Align inside the container
 extrapadding: 0 //Magic
 
-```
 
 Each line gets wrapped inside a div with the class "jq-linewrap-line" if you want to apply further styles
 
