@@ -13,4 +13,11 @@ mode: 'word' //Depending on the width of the container lines get wrapped by word
 align: 'left' //Align inside the container
 extrapadding: 0 //Magic
 
-Each line gets wrapped inside an div with the class "jq-linewrap-line" if you want to apply further styles
+Each line gets wrapped inside a div with the class "jq-linewrap-line" if you want to apply further styles
+
+The plugin is published under the MIT/GPL.
+
+http://en.wikipedia.org/wiki/MIT_License
+http://en.wikipedia.org/wiki/GNU_General_Public_License
+
+If you make enhancements or code changes i would love to know so i can reshare your findings.

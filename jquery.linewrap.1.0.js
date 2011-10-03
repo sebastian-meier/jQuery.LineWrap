@@ -1,3 +1,11 @@
+/*!
+ * jQuery LineWrap Plugin v1.0
+ * https://github.com/juli84/jQuery.LineWrap
+ *
+ * Copyright 2011, Sebastian Meier
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ *
+ */
 (function($){ 
 	$.fn.linewrap = function(options) {  
 		var defaults = {  
