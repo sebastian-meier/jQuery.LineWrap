@@ -18,7 +18,7 @@
 		};
 		var options = $.extend(defaults, options);  
 		return this.each(function() {  
-			obj = $(this);  
+			var obj = $(this);  
 			var p1 = '<span class="jq-linewrap-line">';
 			var p2 = '</span>';
 			var ow = obj.parent().width();
