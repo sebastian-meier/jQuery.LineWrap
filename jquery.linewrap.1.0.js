@@ -18,8 +18,8 @@
 		};
 		var options = $.extend(defaults, options);  
 		return this.each(function() {  
-			obj = $(this);  
-			var p1 = '<span class="jq-linewrap-line">';
+			var obj = $(this);  
+			var p1 = '<span class="jq-linewrap-line jq-linewrap-new">';
 			var p2 = '</span>';
 			var ow = obj.parent().width();
 			obj.parent().width(ow - options.padding[1] - options.padding[3] - 2*options.extrapadding);
@@ -63,9 +63,9 @@
 			for(var a=0; a<lines.length; a++){
 				html += p1+lines[a]+p2;
 			}
-			obj.html(html+'<hr class="jq-linewrap-clear" />');
-			$('.jq-linewrap-line').css({display:'block',"float":options.align,clear:'both',margin:options.margin[0]+'px '+options.margin[1]+'px '+options.margin[2]+'px '+options.margin[3]+'px',padding:options.padding[0]+'px '+options.padding[1]+'px '+options.padding[2]+'px '+options.padding[3]+'px',backgroundColor:options.background,width:'auto',whiteSpace:'nowrap'});
-			$('.jq-linewrap-clear').css({width:'100%',height:'0px',border:'none',clear:'both',margin:'0',padding:'0'});
+			obj.html(html+'<hr class="jq-linewrap-clear jq-linewrap-new" />');
+			$('.jq-linewrap-line.jq-linewrap-new').removeClass('jq-linewrap-new').css({display:'block',"float":options.align,clear:'both',margin:options.margin[0]+'px '+options.margin[1]+'px '+options.margin[2]+'px '+options.margin[3]+'px',padding:options.padding[0]+'px '+options.padding[1]+'px '+options.padding[2]+'px '+options.padding[3]+'px',backgroundColor:options.background,width:'auto',whiteSpace:'nowrap'});
+			$('.jq-linewrap-clear.jq-linewrap-new').removeClass('jq-linewrap-new').css({width:'100%',height:'0px',border:'none',clear:'both',margin:'0',padding:'0'});
 		});
 	};
 })(jQuery);
