@@ -1,6 +1,6 @@
 /*!
  * jQuery LineWrap Plugin v1.0
- * https://github.com/juli84/jQuery.LineWrap
+ * https://github.com/sebastian-meier/jQuery.LineWrap
  *
  * Copyright 2011, Sebastian Meier
  * Dual licensed under the MIT or GPL Version 2 licenses.
